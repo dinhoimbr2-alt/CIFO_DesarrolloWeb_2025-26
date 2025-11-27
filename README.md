@@ -25,34 +25,38 @@ Este repositorio servirá como:
 
 ## 🗂️ Estructura del repositorio
 
+```text
+
 CIFO_DesarrolloWeb_2025-26/
 │
-├── 01_MF0491_Cliente/ → HTML · CSS · JavaScript · Bootstrap
-│ ├── Apuntes/
-│ ├── Ejercicios/
-│ └── Proyectos/
+├── 01_MF0491_Cliente/           → HTML · CSS · JavaScript · Bootstrap
+│   ├── Apuntes/
+│   ├── Ejercicios/
+│   └── Proyectos/
 │
-├── 02_MF0492_Servidor/ → PHP · MySQL · Node.js · Express
-│ ├── Apuntes/
-│ ├── Ejercicios/
-│ └── Proyectos/
+├── 02_MF0492_Servidor/          → PHP · MySQL · Node.js · Express
+│   ├── Apuntes/
+│   ├── Ejercicios/
+│   └── Proyectos/
 │
-├── 03_MF0493_Implantacion/ → Git · GitHub · Deploy · Entornos
-│ ├── Apuntes/
-│ ├── Ejercicios/
-│ └── Proyectos/
+├── 03_MF0493_Implantacion/      → Git · GitHub · Deploy · Entornos
+│   ├── Apuntes/
+│   ├── Ejercicios/
+│   └── Proyectos/
 │
-├── 04_Java_Fundamentos/ → Base de Java · POO · Proyectos
-│ ├── Apuntes/
-│ ├── Ejercicios/
-│ └── Proyectos/
+├── 04_Java_Fundamentos/         → Base de Java · POO · Proyectos
+│   ├── Apuntes/
+│   ├── Ejercicios/
+│   └── Proyectos/
 │
-├── 06_GitHub_Portfolio/ → Construcción del portfolio profesional
+├── 06_GitHub_Portfolio/         → Construcción del portfolio profesional
 │
-├── 97_Extras/ → Recursos adicionales
-├── 98_Snippets/ → Fragmentos de código reutilizable
-├── 99_Interes/ → Artículos, ideas, contenido complementario
-└── README.md → Este documento
+├── 97_Extras/                   → Recursos adicionales
+├── 98_Snippets/                 → Fragmentos de código reutilizable
+├── 99_Interes/                  → Artículos, ideas, contenido complementario
+└── README.md                    → Este documento
+
+```
 
 ---
 
