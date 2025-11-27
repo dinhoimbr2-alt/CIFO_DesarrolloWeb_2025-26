@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo con ARIA</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    nav a { margin-right: 15px; }
+    #panel-info {
+      margin-top: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      display: none; /* oculto por defecto */
+    }
+    button { padding: 8px 12px; }
+  </style>
+</head>
+<body>
+
+  <!-- Nav accesible -->
+  <nav aria-label="Navegación principal">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main id="inicio">
+    <h1>Ejemplo ARIA</h1>
+
+    <!-- Botón accesible que controla un panel -->
+    <button
+      type="button"
+      aria-expanded="false"
+      aria-controls="panel-info"
+      id="btn-info">
+      Mostrar información
+    </button>
+
+    <div id="panel-info" role="region" aria-labelledby="btn-info">
+      <p>Esta es información adicional que se puede mostrar u ocultar.</p>
+    </div>
+  </main>
+
+  <script>
+    const btn = document.getElementById('btn-info');
+    const panel = document.getElementById('panel-info');
+
+    btn.addEventListener('click', () => {
+      const estaAbierto = btn.getAttribute('aria-expanded') === 'true';
+
+      // Cambiamos el estado ARIA
+      btn.setAttribute('aria-expanded', !estaAbierto);
+
+      // Mostramos/ocultamos el panel
+      panel.style.display = estaAbierto ? 'none' : 'block';
+    });
+  </script>
+
+</body>
+</html>

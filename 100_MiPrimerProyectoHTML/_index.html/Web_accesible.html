@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Web usable y accesible</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      background: #f4f4f4;
+      color: #222;
+      padding: 20px;
+    }
+
+    header {
+      background: #1f3c88;
+      color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    header h1 { margin-bottom: 5px; }
+    header p { font-size: 0.9rem; }
+
+    main {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 16px;
+      background: #1f3c88;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #16306b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contacto</h1>
+    <p>Rellena el formulario para ponerte en contacto con nosotros.</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" required>
+
+      <label for="email">Correo electrónico</label>
+      <input id="email" type="email" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+</body>
+</html>

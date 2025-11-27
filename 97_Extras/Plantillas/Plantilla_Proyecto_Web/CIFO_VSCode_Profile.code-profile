@@ -1,0 +1,35 @@
+{
+  "name": "CIFO Web Dev Profile",
+  "settings": {
+    "editor.fontFamily": "Consolas, 'Cascadia Code', monospace",
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "files.autoSave": "onWindowChange",
+    "markdown.preview.breaks": true,
+    "liveServer.settings.donotShowInfoMsg": true
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one",
+      "yzane.markdown-pdf",
+      "mushan.vscode-paste-image",
+      "ritwickdey.liveserver",
+      "esbenp.prettier-vscode",
+      "ecmel.vscode-html-css",
+      "xabikos.javascriptsnippets",
+      "PKief.material-icon-theme",
+      "eamodio.gitlens",
+      "github.vscode-pull-request-github",
+      "christian-kohler.path-intellisense",
+      "formulahendry.auto-rename-tag",
+      "usernamehw.errorlens",
+      "ms-vscode.vscode-language-pack-es"
+    ]
+  },
+  "snippets": {},
+  "keybindings": []
+}

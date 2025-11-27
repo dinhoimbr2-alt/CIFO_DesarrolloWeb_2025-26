@@ -1,0 +1,75 @@
+
+/* 1. Reset suave: dejamos todo limpio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+/* 2. Fuente por defecto del cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display: flex;             /* Activamos flexbox en el body */
+    flex-direction: column; 
+}
+
+/* 3. Estilos del header */
+.site-header{
+
+    background-color: #4f5052;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo-area{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #0f172a;
+}
+
+main-nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+-main nav a:hover{
+    text-decoration: underline;
+}
+.cta-button{
+
+  background-color: #b65007;       /* naranja suave */
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;            /* píldora */
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+.cta-button:hover {
+  background-color: #ea580c;       /* un poco más oscuro al pasar el ratón */
+}
+
+main{
+    flex: 1;
+    padding:  20px;
+}
+footer{
+   
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
