@@ -1,3 +1,3 @@
 # Contenido de interés
 
-Notas sobre este directorio.
+“Prueba de sincronización”
